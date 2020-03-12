@@ -1,7 +1,16 @@
-<h1>Welcome to <esi:include src="/locations/title" /></h1>
+<html>
+<head>
+  <title>Hiking in <esi:include src="/locations/title" /></title>
+</head>
+<body>
 
+<h1>Welcome to <esi:include src="/locations/title" /></h1>
+    
 <p>
   <esi:include src="/locations/title"></esi:include> is a great place to live!
 </p>
 
-Hiking Category Page URL: /find/<esi:include src="/locations/slug" />/hiking
+Hiking Category Page URL: <a href="/find/<esi:include src="/locations/slug" />/hiking">/find/<esi:include src="/locations/slug" />/hiking</a>
+
+</body>
+</html>
